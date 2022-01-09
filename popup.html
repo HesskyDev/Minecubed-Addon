@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecubed Addon</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Verdana" type="text/css">
+
+    <style>
+
+        html, body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            margin: 0;
+            min-height: 180px;
+            padding: 0;
+            width: 384px;
+            background-color: black;
+            color: white;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 28px;
+            font-weight: 900;
+            margin: 0;
+            color:rgb(95, 201, 127);
+        }
+
+        a:link, a:visited {
+            color:black;
+            outline: 0;
+            text-decoration: none;
+        }
+
+        img {
+            width: 45px;
+        }
+
+        .modal-header {
+            align-items: center;
+            border-bottom: 0.5px solid #dadada;
+            
+        }
+
+        .modal-content {
+            padding: 22px;
+            color: white;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .vote {
+            padding: 5px;
+            color: rgb(95, 201, 127);
+            font-weight: 800;
+            text-align: center;
+            font-size: 25px;
+            border-top: 0.5px solid#dadada; 
+            border-bottom: 0.5px solid#dadada;
+        }
+
+        .modal-icons {
+            border-top: 0.5px solid #dadada;
+            height: 50px;
+            width: 100%;
+        }
+        .logo {
+            padding: 25px;
+            border-radius: 50%;
+            text-align: center;
+        }
+
+        .logo-icon {
+            vertical-align: text-bottom;
+            margin-right: 5px;
+            margin-top: 10px;
+            border-radius: 40%;
+            width: 50px;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 70px;
+            margin-bottom: 15px;
+        }
+        
+        .flex {
+            opacity: 1;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .flex p{
+            color: white;
+            text-align: justify;
+            width: 50px;
+        }
+
+        .flex:hover {
+            opacity: 0.4;
+        }
+
+        .links{
+            display: flex;
+            justify-content: space-between;
+            padding: 25px 30px;
+            margin-bottom: 15px;
+        }
+
+        .links p{
+            color: rgb(235, 208, 60);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .links p:hover{
+            opacity: 0.4;
+        }
+
+        .server-info {
+            
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="modal-header">
+        <h1 class="logo">
+            <img src="images/minecubed.png" alt="Minecubed" class="logo-icon"> Minecubed
+        </h1>
+        
+        <div class="modal-content">
+            <p>Easy access to all content related to Minecubed</p>
+        </div>
+
+        <div class="model-icons">
+            <div class="flex-container">
+                <div class="flex">
+                    <a href="https://minecubed.tebex.io/" target="_blank">
+                        <img src="/images/shop.png" alt="Shop" class="shop">
+                        <p>Shop</p>
+                    </a>  
+                </div>
+
+                <div class="flex">
+                    <a href="https://minecubedmc.com/" target="_blank">
+                        <img src="/images/globe.png" alt="Globe" class="globe">
+                        <p>Website</p>
+                    </a>
+                </div>
+
+                <div class="flex">
+                    <a href="https://discord.gg/GNnnJNeDwz" target="_blank">
+                        <img src="/images/discord.png" alt="Discord" class="discord">
+                        <p>Discord</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="vote">
+            <p>Don't forget to vote!</p>
+        </div>
+
+        <div class="links">
+            
+            <a href="https://minecraft-mp.com/server/263883/vote/" target="_blank">
+                <p>Vote #1</p>
+            </a>
+
+            <a href="https://www.planetminecraft.com/server/minecubed-2416298/vote/" target="_blank">
+                <p>Vote #2</p>
+            </a>
+            <a href="https://topminecraftservers.org/server/13496" target="_blank">
+                <p>Vote #3</p>
+            </a>
+        </div>
+    </div>
+
+
+<script src="popup.js"></script>
+
+</body>
+</html>
